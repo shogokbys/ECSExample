@@ -342,6 +342,7 @@ metadata:
   labels:
     app: metallb
     component: controller
+    app.kubernetes.io/version: "1.0.0"
   name: controller
   namespace: metallb-system
 spec:
@@ -418,4 +419,4 @@ data:
     - name: default
       protocol: layer2
       addresses:
-      - 192.168.4.240-192.168.4.254
+      - 192.168.50.240-192.168.50.249
